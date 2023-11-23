@@ -5,8 +5,7 @@
 }
 .img-container{
     margin: 40px auto;
-    height: 500px;
-    width: 400px;
+    width: 70vh;
 }
 .img-container img{
     width: 100%;
