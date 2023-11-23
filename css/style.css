@@ -2,12 +2,21 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 .img-container{
     margin: 40px auto;
-    width: 70vh;
+    object-fit:fill;
+    text-align: center;
+    display: none;
 }
 .img-container img{
-    width: 100%;
-    height: 100%;
+    width: 800px;
+    height: 400px;
+}
+.img-no{
+    display: none;
+}
+.img-yes{
+    display:block;
 }
